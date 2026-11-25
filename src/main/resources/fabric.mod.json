@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "distortion",
+  "version": "${version}",
+  "name": "Distortion",
+  "description": "An atmospheric distortion and psychological-tension prototype inspired by Project Moon.",
+  "authors": [
+    "Distortion Team"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.distortion.DistortionMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
